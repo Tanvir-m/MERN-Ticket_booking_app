@@ -1,0 +1,43 @@
+.colSeats {
+  background-color: gray;
+  border: 1px solid #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 100% !important;
+  // border: none;
+}
+
+.bookedSeats {
+  background-color: red;
+  border: 1px solid #fff;
+}
+
+.userReserved {
+  border: 1px solid #fff;
+  background-color: green !important;
+}
+.select {
+  background-color: palegreen !important;
+  border: 1px solid #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 100% !important;
+}
+
+.book {
+  width: 50%;
+  height: 50px;
+  margin-top: 50px;
+  border: none;
+  font-size: 25px;
+  background-color: #d9534f;
+  color: #fff;
+  border-radius: 10px;
+  transition: 500ms all ease-in-out;
+  font-weight: bold;
+  &:hover {
+    background-color: transparent;
+    border: 1px solid #d9534f;
+    color: #d9534f;
+  }
+}
